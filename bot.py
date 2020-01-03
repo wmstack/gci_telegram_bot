@@ -15,7 +15,8 @@ from requests import get
 #to parse json
 from json import loads
 
-TOKEN = '<ENTER BOT TOKEN HERE>'
+with open('token.txt') as token:
+    TOKEN = token.readline().rstrip()
 
 POSSIBLE_QUERIES =[
     'how many forks fedora infra has',
