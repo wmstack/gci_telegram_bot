@@ -19,4 +19,4 @@ and it will fetch the results from github API, and reply something like
 
 Fork the fedora-infra repo then ask it again to verify yourself.
 
-![Fedora Infra Bot.png](./Fedora Infra Bot.png)
+![Fedora Infra Bot.png](../blob/master/fedora_infra_bot.png?raw=true)
