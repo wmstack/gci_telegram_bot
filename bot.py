@@ -19,11 +19,14 @@ with open('token.txt') as token:
     TOKEN = token.readline().rstrip()
 
 POSSIBLE_QUERIES =[
-    'how many forks fedora infra has',
-    'fedora infra number of forks',
-    'fedora infra has how many forks?',
-    'give me number of fedora infra forks',
-    'how many forks does fedora infra have',
+    'how many forks fedora-infra has',
+    'fedora-infra forks',
+    'fedora-infra forks count',
+    'how many forks does fedora-infra have'
+    'fedora-infra number of forks',
+    'fedora-infra has how many forks?',
+    'give me number of fedora-infra forks',
+    'how many forks does fedora-infra have',
     'fedora-infra number of forks'
 ]
 
