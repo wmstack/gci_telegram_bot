@@ -1,6 +1,6 @@
 # GCI Telegram Bot
 
-Simple telegram bot that fetches the number of forks from fedora-infra  
+Simple telegram bot that fetches the number of forks from fedora-infra
 
 # How to use this
 
@@ -11,8 +11,6 @@ Install telegram desktop, then talk to [Bot Father](https://telegram.me/BotFathe
 python3 bot.py
 ```
 
-
-
 Then try to talk to  the bot using it's telegram link. Tell it
 `how many forks does fedora-infra have`
 
@@ -20,3 +18,5 @@ and it will fetch the results from github API, and reply something like
 `Fedora infra has 154 forks.`
 
 Fork the fedora-infra repo then ask it again to verify yourself.
+
+![Fedora Infra Bot.png](./Fedora Infra Bot.png)
